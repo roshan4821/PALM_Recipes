@@ -13,3 +13,7 @@ C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.your_info.resources
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Edit_info.resources
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Myrecipes.resources
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\lol\PALM_Recipes\PALM_Recipes\bin\Debug\PALM_Recipes.exe.config
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\lol\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.exe
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\lol\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.xml
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\lol\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.pdb
