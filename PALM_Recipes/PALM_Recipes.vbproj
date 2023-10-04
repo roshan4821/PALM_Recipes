@@ -47,10 +47,14 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -72,17 +76,15 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.vb">
+    <Compile Include="Edit_info.Designer.vb">
+      <DependentUpon>Edit_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_info.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Login.vb" />
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mainpage.Designer.vb">
-      <DependentUpon>Mainpage.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Mainpage.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -106,13 +108,19 @@
     <Compile Include="Signup.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="your_info.Designer.vb">
+      <DependentUpon>your_info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="your_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Edit_info.resx">
+      <DependentUpon>Edit_info.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mainpage.resx">
-      <DependentUpon>Mainpage.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -122,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="your_info.resx">
+      <DependentUpon>your_info.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

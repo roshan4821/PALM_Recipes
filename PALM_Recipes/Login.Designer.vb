@@ -96,14 +96,14 @@ Partial Class Login
         Me.Textuser.Location = New System.Drawing.Point(387, 134)
         Me.Textuser.Name = "Textuser"
         Me.Textuser.Size = New System.Drawing.Size(157, 20)
-        Me.Textuser.TabIndex = 5
+        Me.Textuser.TabIndex = 0
         '
         'Textpassword
         '
         Me.Textpassword.Location = New System.Drawing.Point(387, 206)
         Me.Textpassword.Name = "Textpassword"
         Me.Textpassword.Size = New System.Drawing.Size(157, 20)
-        Me.Textpassword.TabIndex = 6
+        Me.Textpassword.TabIndex = 1
         '
         'CheckBox1
         '
@@ -113,7 +113,7 @@ Partial Class Login
         Me.CheckBox1.Location = New System.Drawing.Point(503, 244)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(117, 20)
-        Me.CheckBox1.TabIndex = 7
+        Me.CheckBox1.TabIndex = 2
         Me.CheckBox1.Text = "Remember Me"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
@@ -124,7 +124,7 @@ Partial Class Login
         Me.loginbtn.Location = New System.Drawing.Point(318, 285)
         Me.loginbtn.Name = "loginbtn"
         Me.loginbtn.Size = New System.Drawing.Size(78, 31)
-        Me.loginbtn.TabIndex = 8
+        Me.loginbtn.TabIndex = 2
         Me.loginbtn.Text = "LogIn"
         Me.loginbtn.UseVisualStyleBackColor = True
         '
@@ -135,7 +135,7 @@ Partial Class Login
         Me.Signupbtn.Location = New System.Drawing.Point(442, 285)
         Me.Signupbtn.Name = "Signupbtn"
         Me.Signupbtn.Size = New System.Drawing.Size(124, 31)
-        Me.Signupbtn.TabIndex = 9
+        Me.Signupbtn.TabIndex = 3
         Me.Signupbtn.Text = "New Member ?"
         Me.Signupbtn.UseVisualStyleBackColor = True
         '
@@ -152,7 +152,7 @@ Partial Class Login
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Forget Password"
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -169,7 +169,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.Text = "Login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

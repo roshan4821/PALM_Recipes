@@ -38,6 +38,8 @@ Partial Class Signup
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -46,7 +48,7 @@ Partial Class Signup
         Me.showpassword.AutoSize = True
         Me.showpassword.BackColor = System.Drawing.Color.Transparent
         Me.showpassword.ForeColor = System.Drawing.Color.White
-        Me.showpassword.Location = New System.Drawing.Point(416, 281)
+        Me.showpassword.Location = New System.Drawing.Point(417, 310)
         Me.showpassword.Margin = New System.Windows.Forms.Padding(2)
         Me.showpassword.Name = "showpassword"
         Me.showpassword.Size = New System.Drawing.Size(101, 17)
@@ -81,17 +83,17 @@ Partial Class Signup
         'txtretypepassword
         '
         Me.txtretypepassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtretypepassword.Location = New System.Drawing.Point(118, 222)
+        Me.txtretypepassword.Location = New System.Drawing.Point(117, 256)
         Me.txtretypepassword.Margin = New System.Windows.Forms.Padding(2)
         Me.txtretypepassword.Name = "txtretypepassword"
-        Me.txtretypepassword.Size = New System.Drawing.Size(213, 32)
+        Me.txtretypepassword.Size = New System.Drawing.Size(223, 32)
         Me.txtretypepassword.TabIndex = 14
         Me.txtretypepassword.UseSystemPasswordChar = True
         '
         'txtpassword
         '
         Me.txtpassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtpassword.Location = New System.Drawing.Point(118, 162)
+        Me.txtpassword.Location = New System.Drawing.Point(118, 206)
         Me.txtpassword.Margin = New System.Windows.Forms.Padding(2)
         Me.txtpassword.Name = "txtpassword"
         Me.txtpassword.Size = New System.Drawing.Size(213, 32)
@@ -121,7 +123,7 @@ Partial Class Signup
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(7, 275)
+        Me.Label4.Location = New System.Drawing.Point(7, 310)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(162, 24)
@@ -133,7 +135,7 @@ Partial Class Signup
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(11, 222)
+        Me.Label3.Location = New System.Drawing.Point(11, 262)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(92, 24)
@@ -189,7 +191,7 @@ Partial Class Signup
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(173, 267)
+        Me.TextBox1.Location = New System.Drawing.Point(173, 302)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(213, 32)
@@ -201,12 +203,33 @@ Partial Class Signup
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(11, 162)
+        Me.Label6.Location = New System.Drawing.Point(11, 212)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(75, 24)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Country"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(11, 158)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(58, 24)
+        Me.Label7.TabIndex = 22
+        Me.Label7.Text = "Gmail"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(118, 158)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(213, 32)
+        Me.TextBox2.TabIndex = 23
         '
         'Signup
         '
@@ -214,6 +237,8 @@ Partial Class Signup
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Purple
         Me.ClientSize = New System.Drawing.Size(636, 418)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox1)
@@ -252,4 +277,6 @@ Partial Class Signup
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents TextBox2 As TextBox
 End Class

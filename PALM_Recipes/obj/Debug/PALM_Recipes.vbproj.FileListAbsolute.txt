@@ -3,9 +3,12 @@ C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\bin\Debug\PALM_Recipes.pdb
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\bin\Debug\PALM_Recipes.xml
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.vbprojResolveAssemblyReference.cache
-C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Form1.resources
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Resources.resources
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.vbproj.GenerateResource.Cache
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.exe
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.xml
 C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.pdb
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Login.resources
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Signup.resources
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.your_info.resources
+C:\Users\Roshan\Documents\Visual Studio 2015\Projects\PALM_Recipes\PALM_Recipes\obj\Debug\PALM_Recipes.Edit_info.resources
